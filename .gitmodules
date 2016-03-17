@@ -1,4 +1,4 @@
-[submodule "chef-repo/cookbooks/cosmic-bubble"]
-	path = chef-repo/cookbooks/cosmic-bubble
+[submodule "chef-repo/cookbooks/bubble"]
+	path = chef-repo/cookbooks/bubble
 	url = git@github.com:schubergphilis/cosmic-bubble.git
 	branch = master
