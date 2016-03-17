@@ -1,6 +1,6 @@
 # bubble-blueprint
 
-Install: ```curl -L https://raw.githubusercontent.com/MissionCriticalCloud/bubble-blueprint/master/install.sh | bash```
+Install: ```source <(curl -L https://raw.githubusercontent.com/MissionCriticalCloud/bubble-blueprint/master/install.sh)```
 
 Edit the user file in ```data_bag/users```
 
