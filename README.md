@@ -4,5 +4,5 @@ Install: ```source <(curl -L https://raw.githubusercontent.com/MissionCriticalCl
 
 Edit the user file in ```data_bag/users```
 
-Run: ```chef-client -z -r recipe[cosmic-bubble::default]```
+Run: ```sudo chef-client -z -r recipe[bubble]```
 
