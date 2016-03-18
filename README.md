@@ -3,7 +3,7 @@
 Description
 ------------
 This installs a Bubble from scratch. You can create a Bubble using any computer that meets the requirements (see below). An Intel NUC for example works perfectly fine.
- 
+
 Installation
 ------------
 Run this from the host you create The Bubble:
@@ -17,7 +17,7 @@ source <(curl -L https://raw.githubusercontent.com/MissionCriticalCloud/bubble-b
 
 [2] Rename the user file `example.json` in `data_bag/users` to your username. Edit the contents of the file with your username and public ssh key.
 
-[3] Start the chef-client run: 
+[3] Start the chef-client run:
 ```
 sudo chef-client -z -r recipe[bubble]
 ```
@@ -48,3 +48,8 @@ Requirements
 
 #### OS
 - Centos 7.2 `http://buildlogs.centos.org/rolling/7/isos/x86_64/CentOS-7-x86_64-Minimal.iso`
+
+License and Authors
+-------------------
+License: Apache Version 2.0
+Authors: Fred Neubauer, Remi Bergsma, Bob van den Heuvel, Boris Schrijver, Miguel Ferreira, Wilder Rodrigues
