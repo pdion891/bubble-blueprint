@@ -1,11 +1,13 @@
-# bubble-blueprint
+# Bubble Blueprint
 
 Description
 ------------
- --> TODO
-
+This installs a Bubble from scratch. You can create a Bubble using any computer that meets the requirements (see below). An Intel NUC for example works perfectly fine.
+ 
 Installation
 ------------
+Run this from the host you create The Bubble:
+
 [0] Make sure you comply with the requirements and Centos 7.2 is installed.
 
 [1] Download and run the pre-install script:
@@ -20,7 +22,15 @@ source <(curl -L https://raw.githubusercontent.com/MissionCriticalCloud/bubble-b
 sudo chef-client -z -r recipe[bubble]
 ```
 
-[4] VPN/SSH to the ipaddress of your newly installed bubble.
+Run this from your laptop, to connect to The Bubble:
+
+[4] Setup L2TP VPN connection to the ipaddress of your newly installed bubble.
+
+![screen shot 2016-03-18 at 13 28 57](https://cloud.githubusercontent.com/assets/1630096/13877811/68585b16-ed0d-11e5-9790-15ad2702f5a2.png)
+
+Bubble Toolkit
+-------------
+Scripts to work with The Bubble can be found here: https://github.com/MissionCriticalCloud/bubble-toolkit
 
 Requirements
 ------------
