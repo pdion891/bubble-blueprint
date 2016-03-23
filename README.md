@@ -8,23 +8,25 @@ Installation
 ------------
 Run this from the host you create The Bubble:
 
-[0] Make sure you comply with the requirements and Centos 7.2 is installed.
+1. Make sure you have configured you SSH keys in both your github profile and the computer where you are cloning this repo.
 
-[1] Download and run the pre-install script:
+2. Make sure you comply with the requirements and Centos 7.2 is installed.
+
+3. Download and run the pre-install script:
 ```
 source <(curl -L https://raw.githubusercontent.com/MissionCriticalCloud/bubble-blueprint/master/install.sh)
 ```
 
-[2] Rename the user file `example.json` in `data_bag/users` to your username. Edit the contents of the file with your username and public ssh key.
+4. Rename the user file `example.json` in `data_bag/users` to your username. Edit the contents of the file with your username and public ssh key.
 
-[3] Start the chef-client run:
+5. Start the chef-client run:
 ```
 sudo chef-client -z -r recipe[bubble]
 ```
 
 Run this from your laptop, to connect to The Bubble:
 
-[4] Setup L2TP VPN connection to the ipaddress of your newly installed bubble.
+6. Setup L2TP VPN connection to the ipaddress of your newly installed bubble.
 
 ![screen shot 2016-03-18 at 13 28 57](https://cloud.githubusercontent.com/assets/1630096/13877811/68585b16-ed0d-11e5-9790-15ad2702f5a2.png)
 
