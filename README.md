@@ -11,11 +11,13 @@ Run this from the host you create The Bubble:
 1. Make sure you have configured you SSH keys in both your github profile and the computer where you are cloning this repo.
 2. Make sure you comply with the requirements and Centos 7.2 is installed.
 3. Download and run the pre-install script:
+   
    ```
    source <(curl -L https://raw.githubusercontent.com/MissionCriticalCloud/bubble-blueprint/master/install.sh)
    ```
 4. Rename the user file `example.json` in `data_bag/users` to your username. Edit the contents of the file with your username and public ssh key.
 5. Start the chef-client run:
+
    ```
    sudo chef-client -z -r recipe[bubble]
    ```
