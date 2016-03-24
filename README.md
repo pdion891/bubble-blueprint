@@ -21,9 +21,8 @@ Run this from the host you create The Bubble:
    ```
    sudo chef-client -z -r recipe[bubble]
    ```
-
-Run this from your laptop, to connect to The Bubble:
-
+   
+   Run this from your laptop, to connect to The Bubble:
 6. Setup L2TP VPN connection to the ipaddress of your newly installed bubble.
 
 ![screen shot 2016-03-18 at 13 28 57](https://cloud.githubusercontent.com/assets/1630096/13877811/68585b16-ed0d-11e5-9790-15ad2702f5a2.png)
