@@ -11,7 +11,7 @@ Run this from the host you create The Bubble:
 1. Make sure you have configured you SSH keys in both your github profile and the computer where you are cloning this repo.
 2. Make sure you comply with the requirements and Centos 7.2 is installed.
 3. Download and run the pre-install script:
-   
+
    ```
    source <(curl -L https://raw.githubusercontent.com/MissionCriticalCloud/bubble-blueprint/master/install.sh)
    ```
@@ -21,7 +21,7 @@ Run this from the host you create The Bubble:
    ```
    sudo chef-client -z -r recipe[bubble]
    ```
-   
+
    Run this from your laptop, to connect to The Bubble:
 6. Setup L2TP VPN connection to the ipaddress of your newly installed bubble.
 
@@ -50,8 +50,6 @@ Requirements
 
 License and Authors
 -------------------
-License: Apache Version 2.0
-
 Authors:
 * Fred Neubauer
 * Remi Bergsma
@@ -59,3 +57,19 @@ Authors:
 * Boris Schrijver
 * Miguel Ferreira
 * Wilder Rodrigues
+
+```text
+Copyright 2016, Schuberg Philis
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
